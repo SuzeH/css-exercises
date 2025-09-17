@@ -40,3 +40,20 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+/* Original content above this line. Solution below. Declarations unchanged from above. I've used chaining selectors, but could have changed the position of classes in the CSS file or for the last child text I could have used descendant or child combinators. If I didn't want to preserve the original content I would've edited these above. */
+
+.para.small-para {
+  font-size: 18px;
+}
+
+.button.confirm {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.text.child {
+  font-size: 18px;
+  font-weight: 800;
+}

@@ -46,3 +46,28 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+/* Solution  */
+* {
+margin: 0;
+padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+  gap: 16px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+.left-logo-links, .profile-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}

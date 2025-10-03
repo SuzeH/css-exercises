@@ -27,3 +27,65 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Solution  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.main {
+  display: flex;
+  min-height: calc(100vh - 144px);
+}
+
+.sidebar {
+    display: flex;
+    flex-shrink: 0;
+    width: 300px;
+    padding: 24px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 48px;
+}
+
+.card {
+    /* I also tried min-width which gave more of a masonry effect with boxes stretching to available space. */
+    width: 300px;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
